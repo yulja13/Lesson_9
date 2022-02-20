@@ -1,0 +1,125 @@
+@import "null.css";
+
+body {
+    font-family: "Lato", serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #424551;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.menu {
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 840px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.heading {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    color: #1E212C;
+    margin-bottom: 26px;
+}
+.info {
+    margin-bottom: 40px;
+}
+.data {
+    display: inline-block;
+    color: #787A80;
+    margin-right: 410px;
+}
+.date {
+    margin-right: 24px;
+    background: url("../img/icons/Calendar.svg") 0 center / 16px 16px no-repeat; 
+}
+.time {
+    background: url("../img/icons/Clock.svg") 0 center / 16px 16px no-repeat;
+}
+.date-time {
+    padding-left: 24px;
+}
+/* так не очень, но без флексов по другому не умею )) */
+.social {
+    display: inline-block;
+    font-weight: 700;
+    color: #1E212C;
+}
+.social li {
+    display: inline-block;
+    margin-left: 12px;
+}
+.social-share {
+    color: #1E212C;
+    font-weight: 700;
+    margin-right: 12px;
+}
+.social-link {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-bottom: -3px;
+}
+.social-link::after {
+    display: block;
+    content: "";
+    width: 16px;
+    height: 19px;
+}
+.facebook:after {
+    background: url("../img/icons/Facebook.svg") 0 0 / 16px 16px no-repeat;
+}
+.twitter {
+    background: url("../img/icons/Twitter.svg") 0 0 / 16px 16px no-repeat;
+}
+.linked {
+    background: url("../img/icons/Linked-In.svg") 0 0 / 16px 16px no-repeat;
+}
+.image img {
+    margin-bottom: 60px;
+    width: 100%;
+}
+.text p:first-of-type {
+    font-weight: 700;
+    font-size: 20px;
+}
+.text p {
+    margin-bottom: 24px;
+}
+.text p:last-child {
+    margin-bottom: 0;
+}
+.text {
+    margin-bottom: 60px;
+}
+.quote {
+    font-weight: 700;
+    font-size: 20px;
+    padding: 24px 0 24px 58px;
+    background: url("../img/icons/braces.svg") 0 25px no-repeat;
+}
+.text-list {
+    margin-bottom: 24px;
+}
+.text-list li:not(:last-child) {
+    margin-bottom: 4px;
+}
+.text-list li {
+    padding-left: 32px;
+    min-height: 16px;
+}
+.text-list li {
+    background: url(../img/icons/check.svg) 0 6px / 16px no-repeat;
+}
+.social-bottom {
+    display: block;
+    max-width: 160px;
+    margin-left: auto;
+}
+
+
+
