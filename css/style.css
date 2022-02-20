@@ -42,6 +42,7 @@ body {
 }
 .date-time {
     padding-left: 24px;
+    white-space: nowrap;
 }
 /* так не очень, но без флексов по другому не умею )) */
 .social {
